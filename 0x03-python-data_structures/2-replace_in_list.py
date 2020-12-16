@@ -7,8 +7,9 @@
 """
 
 
-def replace_in_list(my_list, idx, element):
-if idx < 0 or idx >= len(my_list):
-return
-my_list[idx] = element
-return (my_list)
+
+def replace_in_list(my_list, inx, element):
+if 0 <= inx < len(my_list):
+my_list[inx] = element
+
+return my_list
